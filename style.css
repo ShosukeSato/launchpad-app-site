@@ -1,0 +1,11 @@
+:root{--canvas:#F8F7F3;--ink:#1F2A24;--secondary:#5E6A62;--rule:#D9DCD4;--accent:#2F5D45}
+@media (prefers-color-scheme:dark){:root{--canvas:#121815;--ink:#E8ECE6;--secondary:#A3ADA6;--rule:#2C3530;--accent:#8FC2A4}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--canvas);color:var(--ink);font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN",system-ui,sans-serif;line-height:1.85;font-size:16px}
+main{max-width:640px;margin:0 auto;padding:48px 16px 80px}
+h1{font-size:24px;margin:0 0 4px;letter-spacing:.02em}
+.sub{color:var(--secondary);font-size:14px;margin:0 0 32px}
+h2{font-size:17px;margin:40px 0 8px;padding-top:24px;border-top:1px solid var(--rule)}
+p,li{margin:0 0 12px}
+a{color:var(--accent)}
+footer{margin-top:56px;color:var(--secondary);font-size:13px}
